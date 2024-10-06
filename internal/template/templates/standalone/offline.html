@@ -7,6 +7,7 @@
         <meta name="color-scheme" content="dark light">
         <meta name="theme-color" content="{{ theme_color .theme "light" }}" media="(prefers-color-scheme: light)">
         <meta name="theme-color" content="{{ theme_color .theme "dark" }}" media="(prefers-color-scheme: dark)">
+        <meta name="darkreader-lock">
     </head>
     <body>
         <p>{{ t "page.offline.message" }} - <a href="{{ route "unread" }}">{{ t "page.offline.refresh_page" }}</a>.</p>
